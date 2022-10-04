@@ -37,6 +37,7 @@ public class BookToLend implements Landable {
             this.lent = true;
             System.out.println("The book " + this.book.getTitle() + " has been lent to you.\nThe lent will end on " + sdf.format(expirationDate.getTime()) + "\n");
         }
+
     }
 
     @Override
